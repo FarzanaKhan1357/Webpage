@@ -1,0 +1,109 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: linear-gradient(to bottom right, #ffffff 30%, #a276e8 100%);
+    font-family: sans-serif;
+}
+
+header {
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 80px;
+}
+
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    position: relative;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.logo {
+    margin-bottom: 40px;
+}
+
+  .Sec button {
+    background: linear-gradient(to right, #847dea, #ca68f0);  
+    border-radius: 4px;
+}
+
+.img{
+    float: right;
+    padding-top: 70px;
+}
+
+.Sec{
+    padding-top: 100px;
+    margin-left: 60px;
+}
+
+h1{
+    color:rgb(62, 1, 103);
+    font-weight: bold;
+}
+
+.Sec h1 span {
+    color:rgb(193, 112, 247);
+
+    
+}
+
+.navbar a:visited {
+    color: black;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width:800px){
+    .navbar ul{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:840px){
+    .img{
+        width: 60%;
+    }
+} 
+
+@media only screen and (max-width:800px){
+    body{
+        background: #b99bea;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
